@@ -10,9 +10,18 @@ FRE装置をVRインタフェースとして活用するためのシステム。
 IMU(慣性計測ユニット)で推定した姿勢や位置を、VRアプリに送信することでFRE装置をコントローラとして扱えるようにする。  
 マイコン上に建てたWebSocketサーバを介してデータ通信を行うシステムを構築した。  
 
-## 開発環境
+## 開発環境  
+PC：Windows 10 Education、Intel Core i7-7700K  
+メモリ：32.0GB  
+GPU：NVIDIA GeForce GTX 1080  
+IDE：PyCharm Professional、Processing4、Unity  
+言語：Python3、C#  
+フレームワークなど：Tensorflow/Keras、WebSocket、OpenCV  
+
 ### テスト環境
-開発環境と同じ
+PC：Windows 10 Pro、Intel Core i7-6700K  
+メモリ：16.0GB  
+GPU：NVIDIA GeForce GTX 1660 Ti  
 
 ## 開発期間・人数
 令和2年(2019)/09 ~ 現在、1人
