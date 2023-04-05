@@ -2,10 +2,15 @@
 博士研究テーマ  
 釣り竿効果(Fishing Rod Effect)と呼ぶ錯覚を提唱し、それを実証すると共にVR向けインタフェースへの応用を目指す研究での成果物  
 
-https://user-images.githubusercontent.com/116449282/229965476-a2571ed9-f431-46fc-9da9-d90a5acafc58.mp4  
 
 
-https://user-images.githubusercontent.com/116449282/229967165-5ca564f3-c8f4-4a1f-a3b7-42f65c734202.mp4
+https://user-images.githubusercontent.com/116449282/229969163-7e8f4642-daf0-4f51-bad5-556606012812.mp4  
+
+
+
+https://user-images.githubusercontent.com/116449282/229968886-4ff7c06e-71f4-44c8-870a-cb9983bfc11a.mp4
+
+
 
 ## FREdevice
 作成したFRE装置に搭載されているサーボモータを制御する。  
