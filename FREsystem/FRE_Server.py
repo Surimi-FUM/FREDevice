@@ -13,6 +13,7 @@ ACC_DATA = [0.0, 0.0, 0.0]
 GYRO_DATA = [0.0, 0.0, 0.0]
 
 
+# クライエントから送られてきたデータを格納する
 async def setData(websocket, data_type, data):
     print('Run setData() : {}'.format(data))
     greeting = 'Data Set, OK'
@@ -38,7 +39,8 @@ async def setData(websocket, data_type, data):
         print('Error setData()')
         await websocket.send('Error setData()')
 
-
+        
+# 格納されているデータをクライエントに送る
 async def getData(websocket, data_type):
     print('Run getData')
     try:
@@ -62,7 +64,8 @@ async def getData(websocket, data_type):
         print('Error getData()')
         await websocket.send('Error getData()')
 
-
+        
+# クライエントと接続した時
 async def connect(websocket):
     try:
         print('New Client Connect')
@@ -71,7 +74,8 @@ async def connect(websocket):
     except:
         print('Error connect()')
 
-
+        
+# デバック用。エコー関数
 async def echo(websocket, message):
     try:
         print('Run echo()')
@@ -80,7 +84,8 @@ async def echo(websocket, message):
     except:
         print('Error echo()')
 
-
+        
+# メイン処理。サーバの振る舞いを記述
 async def handler(websocket):
     while True:
         try:
@@ -98,6 +103,7 @@ async def handler(websocket):
         except websockets.ConnectionClosedOK:
             break
 
+# 以下変更不可
 async def main():
     async with websockets.serve(handler, "kumapi.local", 8765):
         await asyncio.Future()  # run forever
