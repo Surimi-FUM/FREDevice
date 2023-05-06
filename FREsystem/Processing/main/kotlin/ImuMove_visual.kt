@@ -60,7 +60,8 @@ class ImuMove_visual: PApplet() {
         drawText()
         kotlin.io.println("K=${K}")
     }
-
+    
+    // 操作対象であるボールを描画する
     fun drawBoll(){
         pushMatrix()
         // 移動処理。描画位置をずらしていくことで実装する
@@ -76,6 +77,7 @@ class ImuMove_visual: PApplet() {
         popMatrix()
     }
 
+    // センサ値から位置を推定する
     fun estimateMove(){
         acc = floatArrayOf(client.acc_data[0], client.acc_data[1], client.acc_data[2])
         val fc = 1.0f  // カット周波数
@@ -96,6 +98,7 @@ class ImuMove_visual: PApplet() {
         }
     }
 
+    // デバック用。センサ値と推定値の変化を可視化する
     fun drawText(){
         var H = 1.0f
         var word: String
