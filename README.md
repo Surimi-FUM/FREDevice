@@ -18,7 +18,8 @@ https://user-images.githubusercontent.com/116449282/229968886-4ff7c06e-71f4-44c8
 ## FREsystem
 FRE装置をVRインタフェースとして活用するためのシステム。  
 IMU(慣性計測ユニット)で推定した姿勢や位置を、VRアプリに送信することでFRE装置をコントローラとして扱えるようにする。  
-マイコン上に建てたWebSocketサーバを介してデータ通信を行うシステムを構築した。  
+Unityアプリでは、Arduinoを使用したシリアル通信システムを構築した。  
+Processingでは、Raspberry Pi上に建てたWebSocketサーバを介してデータ通信を行うシステムを構築した。  
 
 ## 開発環境  
 PC：Windows 10 Education、Intel Core i7-7700K  
