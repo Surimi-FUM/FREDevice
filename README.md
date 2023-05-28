@@ -27,7 +27,7 @@ PC：Windows 10 Education、Intel Core i7-7700K
 GPU：NVIDIA GeForce GTX 1080  
 IDE：PyCharm Professional、Processing4、Unity  
 言語：Python3、C#  
-フレームワークなど：Tensorflow/Keras、WebSocket、OpenCV  
+フレームワークなど：WebSocket  
 
 ### テスト環境
 PC：Windows 10 Pro、Intel Core i7-6700K  
