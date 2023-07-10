@@ -2,10 +2,6 @@
 博士研究テーマ  
 釣り竿効果(Fishing Rod Effect)と呼ぶ錯覚を提唱し、それを実証すると共にVR向けインタフェースへの応用を目指す研究での成果物  
 
-new -------------------------------------------  
-2023年開発中  
-![FRE_sishing](https://github.com/Surimi-FUM/FREProject/assets/116449282/a440826b-ae11-45ce-8899-f6e5c3b4fb96)  
-
 2022年開発  
 https://user-images.githubusercontent.com/116449282/229968886-4ff7c06e-71f4-44c8-870a-cb9983bfc11a.mp4
 
